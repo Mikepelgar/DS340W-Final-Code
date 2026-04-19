@@ -1,0 +1,76 @@
+======================================================================
+COMPREHENSIVE EVALUATION SUMMARY
+======================================================================
+
+Dataset: 953 windows, 71 features (RI=8, SIR=6, Policy=57)
+Early warning: threshold=0.9652 (Youden's J, training ROC), sustained=3 days
+  Sensitivity at threshold: 1.0000  Specificity: 1.0000
+
+RANDOM-SPLIT COMPARISON (70/30, all three classifiers):
+  Experiment    SVM     RF    XGB   Mean
+ RI + Policy 0.9266 0.9615 0.9476 0.9452
+ALL Features 0.9161 0.9720 0.9371 0.9417
+     RI Only 0.8881 0.9580 0.9545 0.9335
+SIR + Policy 0.8916 0.9336 0.9580 0.9277
+    RI + SIR 0.8741 0.9196 0.9545 0.9161
+ Policy Only 0.8217 0.8462 0.8462 0.8380
+    SIR Only 0.6888 0.6783 0.6853 0.6841
+
+TRANSFERABILITY (time-based split):
+  Random-split accuracy (ALL): 0.9371
+  Time-split accuracy        : 0.8333
+  Transferability drop       : 0.1038
+  Saved model on 2022 test   : 0.9889
+
+EARLY WARNING METRICS (time-split XGBoost model):
+  Alert threshold (Youden's J): 0.9652
+  Sensitivity: 1.0000  |  Specificity: 1.0000
+  Sustained days              : 3
+  Out-of-sample lead times    : [99] days
+  Mean out-of-sample lead time: 99 days
+  Early warning AUC (14-day)  : 0.9732  [PRIMARY METRIC]
+
+IN-SAMPLE LEAD TIME (full dataset, threshold=0.50):
+  No genuine transitions found at threshold=0.50.
+
+
+TOP 20 AGGREGATED FEATURE IMPORTANCES:
+ Rank                              Variable  Aggregated Importance      Group
+    1               E2_Debt/contract relief               0.113867     Policy
+    2        C4M_Restrictions on gatherings               0.084961     Policy
+    3                               $\mu^c$               0.079600         RI
+    4 C7M_Restrictions on internal movement               0.071372     Policy
+    5                       growth_rate_max               0.071345 SIR/Growth
+    6                    C1M_School closing               0.067904     Policy
+    7                             $\beta^c$               0.067056         RI
+    8                             $Delta^c$               0.065686         RI
+    9               StringencyIndex_Average               0.054970     Policy
+   10                 C2M_Workplace closing               0.054075     Policy
+   11              C3M_Cancel public events               0.043956     Policy
+   12                 H7_Vaccination policy               0.031844     Policy
+   13                                    Re               0.026694        SIR
+   14                                    R0               0.025454        SIR
+   15                     E1_Income support               0.024280     Policy
+   16                           $Omicron^c$               0.019380         RI
+   17                      growth_rate_mean               0.015617 SIR/Growth
+   18                            $Policy^c$               0.014955         RI
+   19                            $Policy^p$               0.012600         RI
+   20                            $\sigma^c$               0.011239         RI
+
+TOP 15 RAW FEATURE IMPORTANCES:
+                                           feature  importance
+               policy_mean_E2_Debt/contract relief    0.095987
+                                           $\mu^c$    0.079600
+                                   growth_rate_max    0.071345
+                                         $\beta^c$    0.067056
+                                         $Delta^c$    0.065686
+       policy_slope_C4M_Restrictions on gatherings    0.056200
+policy_slope_C7M_Restrictions on internal movement    0.044207
+                 policy_mean_C2M_Workplace closing    0.043780
+             policy_slope_C3M_Cancel public events    0.031993
+                 policy_mean_H7_Vaccination policy    0.031844
+                                                Re    0.026694
+                                                R0    0.025454
+                     policy_mean_E1_Income support    0.024280
+ policy_mean_C7M_Restrictions on internal movement    0.023953
+                   policy_slope_C1M_School closing    0.023642

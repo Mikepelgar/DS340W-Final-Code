@@ -1,0 +1,72 @@
+feature,importance,base_variable
+policy_mean_E2_Debt/contract relief,0.0959873,E2_Debt/contract relief
+$\mu^c$,0.07960041,$\mu^c$
+growth_rate_max,0.071344934,growth_rate_max
+$\beta^c$,0.06705572,$\beta^c$
+$Delta^c$,0.06568564,$Delta^c$
+policy_slope_C4M_Restrictions on gatherings,0.056199905,C4M_Restrictions on gatherings
+policy_slope_C7M_Restrictions on internal movement,0.044207018,C7M_Restrictions on internal movement
+policy_mean_C2M_Workplace closing,0.043779656,C2M_Workplace closing
+policy_slope_C3M_Cancel public events,0.031992964,C3M_Cancel public events
+policy_mean_H7_Vaccination policy,0.031843502,H7_Vaccination policy
+Re,0.026693879,Re
+R0,0.025454294,R0
+policy_mean_E1_Income support,0.024279695,E1_Income support
+policy_mean_C7M_Restrictions on internal movement,0.023953486,C7M_Restrictions on internal movement
+policy_slope_C1M_School closing,0.02364173,C1M_School closing
+policy_mean_C1M_School closing,0.019617805,C1M_School closing
+policy_start_C1M_School closing,0.019506779,C1M_School closing
+$Omicron^c$,0.019380204,$Omicron^c$
+policy_slope_StringencyIndex_Average,0.018261733,StringencyIndex_Average
+policy_slope_E2_Debt/contract relief,0.017880203,E2_Debt/contract relief
+growth_rate_mean,0.015617296,growth_rate_mean
+policy_start_StringencyIndex_Average,0.015325249,StringencyIndex_Average
+$Policy^c$,0.014955281,$Policy^c$
+policy_end_StringencyIndex_Average,0.014088832,StringencyIndex_Average
+$Policy^p$,0.01260048,$Policy^p$
+$\sigma^c$,0.011239337,$\sigma^c$
+policy_start_C4M_Restrictions on gatherings,0.010966205,C4M_Restrictions on gatherings
+growth_rate,0.010039606,growth_rate
+policy_mean_C4M_Restrictions on gatherings,0.009838245,C4M_Restrictions on gatherings
+policy_slope_C2M_Workplace closing,0.009620189,C2M_Workplace closing
+policy_slope_C6M_Stay at home requirements,0.009443503,C6M_Stay at home requirements
+policy_end_C3M_Cancel public events,0.008235112,C3M_Cancel public events
+policy_end_C4M_Restrictions on gatherings,0.007957043,C4M_Restrictions on gatherings
+policy_slope_C8EV_International travel controls,0.007872639,C8EV_International travel controls
+policy_mean_StringencyIndex_Average,0.0072937114,StringencyIndex_Average
+sir_fit_r2,0.0055685737,sir_fit_r2
+policy_end_C1M_School closing,0.005137676,C1M_School closing
+doubling_time,0.004061052,doubling_time
+policy_mean_C3M_Cancel public events,0.003728191,C3M_Cancel public events
+policy_end_C7M_Restrictions on internal movement,0.0032112405,C7M_Restrictions on internal movement
+policy_mean_C8EV_International travel controls,0.0031101734,C8EV_International travel controls
+Week,0.0030485087,Week
+policy_end_C2M_Workplace closing,0.0004173025,C2M_Workplace closing
+policy_start_C2M_Workplace closing,0.000257755,C2M_Workplace closing
+policy_end_E2_Debt/contract relief,0.0,E2_Debt/contract relief
+policy_end_H3_Contact tracing,0.0,H3_Contact tracing
+policy_start_E2_Debt/contract relief,0.0,E2_Debt/contract relief
+policy_mean_H2_Testing policy,0.0,H2_Testing policy
+policy_start_H2_Testing policy,0.0,H2_Testing policy
+policy_slope_H2_Testing policy,0.0,H2_Testing policy
+policy_end_H2_Testing policy,0.0,H2_Testing policy
+policy_mean_H3_Contact tracing,0.0,H3_Contact tracing
+policy_start_H3_Contact tracing,0.0,H3_Contact tracing
+policy_slope_H3_Contact tracing,0.0,H3_Contact tracing
+sir_reliable,0.0,sir_reliable
+policy_start_C7M_Restrictions on internal movement,0.0,C7M_Restrictions on internal movement
+policy_start_E1_Income support,0.0,E1_Income support
+policy_end_E1_Income support,0.0,E1_Income support
+policy_slope_E1_Income support,0.0,E1_Income support
+policy_end_H1_Public information campaigns,0.0,H1_Public information campaigns
+policy_start_C3M_Cancel public events,0.0,C3M_Cancel public events
+policy_end_C8EV_International travel controls,0.0,C8EV_International travel controls
+policy_start_C8EV_International travel controls,0.0,C8EV_International travel controls
+policy_mean_H1_Public information campaigns,0.0,H1_Public information campaigns
+policy_start_H1_Public information campaigns,0.0,H1_Public information campaigns
+policy_mean_C6M_Stay at home requirements,0.0,C6M_Stay at home requirements
+policy_start_C6M_Stay at home requirements,0.0,C6M_Stay at home requirements
+policy_end_C6M_Stay at home requirements,0.0,C6M_Stay at home requirements
+policy_start_H7_Vaccination policy,0.0,H7_Vaccination policy
+policy_slope_H7_Vaccination policy,0.0,H7_Vaccination policy
+policy_end_H7_Vaccination policy,0.0,H7_Vaccination policy
